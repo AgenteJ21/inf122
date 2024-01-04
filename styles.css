@@ -1,11 +1,12 @@
 body{
-    background-color: #0f0f0f;
+    background-color: #fff3e4;
 }
 h1{
-    color: rgb(182, 36, 36);
-    font-size: 25px;
-    font-family: 'Segoe UI';
-    background-color: aqua;
+    text-align: center;
+    color: #e86bf3;
+}
+h2{
+    color: #d728e7;
 }
 p{
     font-size: large;
@@ -29,9 +30,10 @@ ul li{
 }
 .enviar{
     border-radius: 5px;
-    background-color: blue;
+    color:  #fff5e9;
+    background-color: #6dc779b7;
 }
 .etiqueta{
     font-size: 15px;
-    background-color: coral;
+    background-color: #f06a6a;
 }
