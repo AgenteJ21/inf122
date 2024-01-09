@@ -1,0 +1,54 @@
+:root{
+    --bg-black: #2B2E34;
+    --white: #FFFFFF;
+    --black-card: #0D1423;
+    --gray-blue: #AFC0E2;
+    --yellow: #D1AE31;
+}
+body{
+    font-family: 'Nunito';
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--bg-black);
+}
+.frame{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 50%;
+    border: 5px solid #ffffff;
+    justify-items: center;
+}
+.frame-7 .title{
+    color: var(--white);
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.frame-7 .subtitle{
+    color: var(--gray-blue);
+    text-align: center;
+    font-size: 20px;
+}
+.card-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 27px;
+    align-self: stretch;
+}
+.cards{
+    background-color: var(--black-card);
+    text-align: center;
+    border-radius: 10px;
+    padding: 1.5px;
+}
+/*.card-icons{*/
+.card-text{
+    color: var(--gray-blue);
+}
