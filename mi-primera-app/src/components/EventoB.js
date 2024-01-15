@@ -5,7 +5,7 @@ function EventoB(props) {
     return (
     <div className="card-container">
         <img className="card-image"
-            src={require('´../imagenes/${props.image}.webp´)}
+            src={require(`../imagenes/${props.image}.webp`)}
             alt="Foto del evento" />
         <div className="card-content">
             <div className="card-title">

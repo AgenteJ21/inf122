@@ -1,4 +1,5 @@
 import React from "react";
+import
 import '../styles/Evento.css';
 function Evento() {
     return (
