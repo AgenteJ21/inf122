@@ -1,10 +1,13 @@
 import './App.css';
 import Contador from './components/Contador.js';
 import Boton from './components/Boton.js';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
-  /**/const click = () => {
+  const [nroClicks, setNumClicks] = useState(0);
+  const [show, setShow] = useState(true);
+  /*const mostrar */
+  const click = () => {
     setNumClicks(nroClicks+1);
     console.log("CLICK");
   }
@@ -24,11 +27,12 @@ function App() {
   const clickMenos1 = () => {
     setNumClicks(nroClicks-1)
   }
-  const [nroClicks, setNumClicks] = useState(0);
+  
+  
   return (
     <div className="App">
       <div className='contenedor-principal'>
-        <Contador nroClicks={nroClicks} />
+        <Contador nroClicks={nroClicks} mostrar={show} />
         <div className='contenedor-botones-op'>
           <Boton texto="-3" esBotonClick={true} funcionClick={clickMenos3} />
           <Boton texto="+3" esBotonClick={true} funcionClick={clickMas3} />
