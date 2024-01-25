@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    width: 634px;
+    
+    padding: 20px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--md);
+    color: var(--gray); 
+}
