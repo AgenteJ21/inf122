@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 756px;
+    height: 116px;
+    background-color: var(--green2);
+
+    gap: 10px;
+    border-radius: 10px;
+    margin: 50px;
+}
+.portf-btn button{
+    width: 349px;
+    height: 80px;
+    background-color: var(--green1);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.portf-btn button p{
+    color: var(--gray);
+    font-size: var(--md);
+}
+.skills-btn button{
+    width: 349px;
+    height: 80px;
+    background-color: var(--green2);
+    opacity: 0.5;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.skills-btn button p{
+    color: var(--gray);
+    font-size: var(--md);
+}

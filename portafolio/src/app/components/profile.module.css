@@ -26,6 +26,7 @@
     color: var(--gray);
     width: 372px;
     height: 33px;
+    margin-bottom: 10px;
     font-size: var(--md);
 }
 .icons-container{
@@ -38,4 +39,5 @@
 .icons-container img{
     width: 36px;
     height: 36px;
+    cursor: pointer;
 }

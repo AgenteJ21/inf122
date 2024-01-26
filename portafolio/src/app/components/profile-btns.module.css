@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    width: 618px;
+    height: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 50px;
+}
+.download-btn button{
+    display: flex;
+    width: 290px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green1);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.download-btn button p{
+    color: var(--white);
+    font-size: var(--md);
+}
+.download-btn button img{
+    width: 26px;
+    height: 24px;
+}
+.contact-btn button{
+    width: 290px;
+    height: 80px;
+    background-color: var(--green3);
+    opacity: 0.5;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.contact-btn button p{
+    color: var(--gray);
+    font-size: var(--md);
+}
