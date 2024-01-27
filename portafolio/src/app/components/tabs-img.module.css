@@ -18,10 +18,14 @@
     transition: all 500ms ease-out;
 }
 .container figure .cap{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
     background-color: var(--green3);
     transition: all 500ms ease-out;
     opacity: 0;
@@ -33,12 +37,20 @@
     visibility: visible;
 }
 .container figure:hover > .cap h3{
-    margin-top: 70px;
-    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     font-size: var(--md);
     color: var(--white);
     transition: all 500ms ease-out;
+
 }
 .container figure .cap p{
     font-size: var(--sm);
+}
+.container figure .cap > .link-icon{
+    width: 42px;
+    height: 38px;
+    background-color: var(--white);
+    border-radius: 40%;
+    margin-top: 5px;
 }

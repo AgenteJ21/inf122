@@ -17,6 +17,7 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
 .portf-btn button p{
     color: var(--gray);
@@ -30,6 +31,7 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
 .skills-btn button p{
     color: var(--gray);

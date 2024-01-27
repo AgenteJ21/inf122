@@ -7,7 +7,7 @@ export default function ProfileButtons(){
         <div className={style.container}>
             <div className={style["download-btn"]}>
                 <button>
-                    <p>Download</p>
+                    <p>Download CV</p>
                     <Image src={down}></Image>
                 </button>
             </div>
